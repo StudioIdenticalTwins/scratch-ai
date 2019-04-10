@@ -157,6 +157,7 @@ export default [
             />
         ),
         extensionId: 'speech2text',
+        collaborator: 'Amazon Web Services',
         iconURL: speech2textImage,
         insetIconURL: speech2textInsetImage,
         description: (
@@ -167,7 +168,7 @@ export default [
             />
         ),
         featured: true,
-        internetConnectionRequired: false
+        internetConnectionRequired: true
     },
     {
         name: (
@@ -335,6 +336,19 @@ export default [
         featured: true,
         disabled: false,
         bluetoothRequired: true,
-        internetConnectionRequired: true
+        internetConnectionRequired: true,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: true,
+        connectionIconURL: boostInsetIconURL,
+        connectionSmallIconURL: boostInsetIconURL,
+        connectionTipIconURL: boostInsetIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their Boost."
+                id="gui.extension.boost.connectingMessage"
+            />
+        ),
+        helpLink: 'https://scratch.mit.edu/boost'
     }
 ];
