@@ -22,6 +22,9 @@ import speech2textInsetImage from './speech2text/speech2text.svg';
 import text2speechIconURL from './text2speech/text2speech.png';
 import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
 
+import textToolsIconURL from './textTools/textTools.png';
+import textToolsInsetIconURL from './textTools/textTools.svg';
+
 import translateIconURL from './translate/translate.png';
 import translateInsetIconURL from './translate/translate-small.png';
 
@@ -144,6 +147,26 @@ export default [
                 defaultMessage="Sense motion with the camera."
                 description="Description for the 'Video Sensing' extension"
                 id="gui.extension.videosensing.description"
+            />
+        ),
+        featured: true
+    },
+    {   
+        name: (
+            <FormattedMessage
+                defaultMessage="Text Tools"
+                description="Name for the 'Text Tools' extension"
+                id="gui.extension.textTools.name"
+            />
+        ),
+        extensionId: 'textTools',
+        iconURL: textToolsIconURL,
+        insetIconURL: textToolsInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Text Tools."
+                description="Text Toolsl."
+                id="gui.extension.textTools.description"
             />
         ),
         featured: true

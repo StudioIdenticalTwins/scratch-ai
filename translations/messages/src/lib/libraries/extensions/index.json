@@ -50,6 +50,16 @@
     "defaultMessage": "Sense motion with the camera."
   },
   {
+    "id": "gui.extension.textTools.name",
+    "description": "Name for the 'Text Tools' extension",
+    "defaultMessage": "Text Tools"
+  },
+  {
+    "id": "gui.extension.textTools.description",
+    "description": "Text Toolsl.",
+    "defaultMessage": "Text Tools."
+  },
+  {
     "id": "gui.extension.speech2text.name",
     "description": "Name for the Speech to Text extension",
     "defaultMessage": "Speech to Text"
@@ -118,5 +128,10 @@
     "id": "gui.extension.boost.description",
     "description": "Description for the 'LEGO BOOST' extension",
     "defaultMessage": "Bring robotic creations to life."
+  },
+  {
+    "id": "gui.extension.boost.connectingMessage",
+    "description": "Message to help people connect to their Boost.",
+    "defaultMessage": "Connecting"
   }
 ]
